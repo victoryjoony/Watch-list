@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-27T13:50:41.530Z",
+  "checkedAt": "2026-10-27T13:53:05.756Z",
   "stocks": {
     "FN": {
       "errors": [
         "filings: HTTP 403"
       ],
-      "checkedAt": "2026-10-27T13:50:41.530Z",
+      "checkedAt": "2026-10-27T13:53:05.756Z",
       "quote": {
         "close": 325.24,
         "date": "2026-10-26",
@@ -16,7 +16,7 @@
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/FN/history/",
-        "fetchedAt": "2026-10-27T13:50:41.530Z",
+        "fetchedAt": "2026-10-27T13:53:05.756Z",
         "status": "ok"
       },
       "financials": {
@@ -36,7 +36,7 @@
         "currency": "USD",
         "status": "ok",
         "ttmRevenue": 4641097000,
-        "fetchedAt": "2026-10-27T13:50:41.530Z",
+        "fetchedAt": "2026-10-27T13:53:05.756Z",
         "sourceUrl": "https://finance.yahoo.com/quote/FN/financials/"
       },
       "afterhours": {
@@ -54,7 +54,7 @@
         "completed": true,
         "note": "장외 1분봉 종가 표본. 첫 체결가·실적 공개 순간 가격을 뜻하지 않으며, 거래소 전체 체결을 포괄하지 않음.",
         "regularEnd": 1793131200,
-        "fetchedAt": "2026-10-27T13:50:41.530Z",
+        "fetchedAt": "2026-10-27T13:53:05.756Z",
         "sourceUrl": "https://finance.yahoo.com/quote/FN/"
       },
       "filings": {
@@ -106,7 +106,7 @@
       "errors": [
         "filings: HTTP 403"
       ],
-      "checkedAt": "2026-10-27T13:50:41.530Z",
+      "checkedAt": "2026-10-27T13:53:05.756Z",
       "quote": {
         "close": 50.96,
         "date": "2026-10-26",
@@ -116,7 +116,7 @@
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/ACMR/history/",
-        "fetchedAt": "2026-10-27T13:50:41.530Z",
+        "fetchedAt": "2026-10-27T13:53:05.756Z",
         "status": "ok"
       },
       "financials": {
@@ -136,7 +136,7 @@
         "currency": "USD",
         "status": "ok",
         "ttmRevenue": 1037772000,
-        "fetchedAt": "2026-10-27T13:50:41.530Z",
+        "fetchedAt": "2026-10-27T13:53:05.756Z",
         "sourceUrl": "https://finance.yahoo.com/quote/ACMR/financials/"
       },
       "afterhours": {
@@ -154,7 +154,7 @@
         "completed": true,
         "note": "장외 1분봉 종가 표본. 첫 체결가·실적 공개 순간 가격을 뜻하지 않으며, 거래소 전체 체결을 포괄하지 않음.",
         "regularEnd": 1793131200,
-        "fetchedAt": "2026-10-27T13:50:41.530Z",
+        "fetchedAt": "2026-10-27T13:53:05.756Z",
         "sourceUrl": "https://finance.yahoo.com/quote/ACMR/"
       },
       "filings": {
@@ -199,7 +199,7 @@
       "errors": [
         "filings: HTTP 403"
       ],
-      "checkedAt": "2026-10-27T13:50:41.530Z",
+      "checkedAt": "2026-10-27T13:53:05.756Z",
       "quote": {
         "close": 131.2,
         "date": "2026-10-26",
@@ -209,7 +209,7 @@
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/BWXT/history/",
-        "fetchedAt": "2026-10-27T13:50:41.530Z",
+        "fetchedAt": "2026-10-27T13:53:05.756Z",
         "status": "ok"
       },
       "financials": {
@@ -229,7 +229,7 @@
         "currency": "USD",
         "status": "ok",
         "ttmRevenue": 3513970000,
-        "fetchedAt": "2026-10-27T13:50:41.530Z",
+        "fetchedAt": "2026-10-27T13:53:05.756Z",
         "sourceUrl": "https://finance.yahoo.com/quote/BWXT/financials/"
       },
       "afterhours": {
@@ -247,7 +247,7 @@
         "completed": true,
         "note": "장외 1분봉 종가 표본. 첫 체결가·실적 공개 순간 가격을 뜻하지 않으며, 거래소 전체 체결을 포괄하지 않음.",
         "regularEnd": 1793131200,
-        "fetchedAt": "2026-10-27T13:50:41.530Z",
+        "fetchedAt": "2026-10-27T13:53:05.756Z",
         "sourceUrl": "https://finance.yahoo.com/quote/BWXT/"
       },
       "filings": {
@@ -300,7 +300,7 @@
   "history": [
     {
       "date": "2026-10-27",
-      "checkedAt": "2026-10-27T13:50:41.530Z",
+      "checkedAt": "2026-10-27T13:53:05.756Z",
       "status": "partial",
       "stocks": {
         "FN": {

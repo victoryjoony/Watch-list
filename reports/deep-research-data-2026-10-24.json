@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-24",
+  "priceDate": "2026-10-23",
+  "rows": [
+    {
+      "t": "FN",
+      "cap": 11.29,
+      "rev": 4.641,
+      "growth": 35.73,
+      "margin": 0.09,
+      "range": [
+        0.07,
+        0.11
+      ],
+      "d": -0.0004,
+      "period": "2026-06-26",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "rs": [
+        2262,
+        2645,
+        2883,
+        3419,
+        4641
+      ],
+      "ns": [
+        200.38,
+        247.91,
+        296.18,
+        332.53,
+        473.03
+      ],
+      "ps": 2.4326653738418442,
+      "historyMargins": [
+        8.858532272325375,
+        9.372778827977315,
+        10.273326396115158,
+        9.72594325826265,
+        10.192415427709545
+      ],
+      "meanMargin": 9.684599236478011,
+      "required0": 13.36361122080798,
+      "required3": 16.764519557432234,
+      "requiredObserved": 13.31826577631967,
+      "marginSensitivity3": [
+        19.736164868832205,
+        14.444751144559254
+      ],
+      "terminalRevenue0": 16.268529096960552,
+      "sources": {
+        "financials": "https://stockanalysis.com/stocks/fn/financials/",
+        "market": "https://stockanalysis.com/stocks/fn/statistics/"
+      },
+      "cagr4": 19.68224909594809,
+      "requiredPE15": 20.172409872001438,
+      "pessimistic": 23.230785650100017
+    },
+    {
+      "t": "ACMR",
+      "cap": 3.52,
+      "rev": 1.038,
+      "growth": 27.31,
+      "margin": 0.1,
+      "range": [
+        0.08,
+        0.12
+      ],
+      "d": 0.0381,
+      "period": "2026-06-30",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "rs": [
+        259.75,
+        388.83,
+        557.72,
+        782.12,
+        901.31
+      ],
+      "ns": [
+        37.76,
+        39.26,
+        77.35,
+        103.63,
+        94.08
+      ],
+      "ps": 3.3911368015414256,
+      "historyMargins": [
+        14.537054860442733,
+        10.09695753928452,
+        13.86896650649071,
+        13.249884928144018,
+        10.43814004060756
+      ],
+      "meanMargin": 12.438200774993907,
+      "required0": 15.964274847900462,
+      "required3": 19.44320309333749,
+      "requiredObserved": 20.382513719605466,
+      "marginSensitivity3": [
+        22.138460777116563,
+        17.285228065667724
+      ],
+      "terminalRevenue0": 4.564986729776009,
+      "sources": {
+        "financials": "https://stockanalysis.com/stocks/acmr/financials/",
+        "market": "https://stockanalysis.com/stocks/acmr/statistics/"
+      },
+      "cagr4": 36.48334515164302,
+      "requiredPE15": 22.929273489599346,
+      "pessimistic": 25.703194988299536
+    },
+    {
+      "t": "BWXT",
+      "cap": 11.65,
+      "rev": 3.514,
+      "growth": 22.67,
+      "margin": 0.11,
+      "range": [
+        0.09,
+        0.13
+      ],
+      "d": 0.0011,
+      "period": "2026-06-30",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "rs": [
+        2124,
+        2233,
+        2496,
+        2704,
+        3198
+      ],
+      "ns": [
+        305.87,
+        238.19,
+        245.85,
+        281.94,
+        328.95
+      ],
+      "ps": 3.315310187820148,
+      "historyMargins": [
+        14.400659133709981,
+        10.666815942678012,
+        9.849759615384615,
+        10.426775147928995,
+        10.28611632270169
+      ],
+      "meanMargin": 11.126025232480657,
+      "required0": 14.604806940515136,
+      "required3": 18.0429511487306,
+      "requiredObserved": 14.730872228149728,
+      "marginSensitivity3": [
+        20.435654236452372,
+        16.087375258681647
+      ],
+      "terminalRevenue0": 13.735045300074992,
+      "sources": {
+        "financials": "https://stockanalysis.com/stocks/bwxt/financials/",
+        "market": "https://stockanalysis.com/stocks/bwxt/statistics/"
+      },
+      "cagr4": 10.77225244414748,
+      "requiredPE15": 21.488153779184273,
+      "pessimistic": 23.950690320674273
+    }
+  ],
+  "calculations": {
+    "fnFCF2026": 4.222000000000037,
+    "fnFCF2025": 207.287,
+    "acFCFH12026": -123.20700000000001,
+    "bwFCFH12026": 165.06599999999997,
+    "bwTargetCAGR": [
+      0.09684377099223651,
+      0.12096464033219467
+    ],
+    "acAdjustedProfitGrowth": 0.001301264712332717
+  },
+  "sources": [
+    [
+      "fn-k",
+      "Fabrinet FY2026 10-K",
+      "2026-06-26 결산 / 2026-08 공시",
+      "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000028/fn-20260626.htm"
+    ],
+    [
+      "fn-r",
+      "Fabrinet FY2026 실적 발표",
+      "2026-08-17 발표",
+      "https://investor.fabrinet.com/node/13666"
+    ],
+    [
+      "fn-p",
+      "Fabrinet FY2026 4분기 설명자료",
+      "2026-08-17 / pp. 4, 7, 12–14",
+      "https://investor.fabrinet.com/static-files/3946ab0d-d45b-48f2-881e-46a16fb0ae9a"
+    ],
+    [
+      "ac-q",
+      "ACM Research 2026 상반기 10-Q",
+      "2026-06-30 결산 / 2026-08 공시",
+      "https://www.sec.gov/Archives/edgar/data/1680062/000162828026054832/acmr-20260630.htm"
+    ],
+    [
+      "ac-r",
+      "ACM Research 2026 2분기 실적 발표",
+      "2026-08-07 발표",
+      "https://ir.acmr.com/news-releases/news-release-details/acm-research-reports-second-quarter-2026-results"
+    ],
+    [
+      "bw-q",
+      "BWXT 2026 상반기 10-Q",
+      "2026-06-30 결산 / 2026-08 공시",
+      "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000044/bwxt-20260630.htm"
+    ],
+    [
+      "bw-t",
+      "BWXT 2026 2분기 실적 설명회",
+      "2026-08-03 / pp. 3, 6–7",
+      "https://investors.bwxt.com/static-files/2ab65973-d738-4ee3-a376-07932cf4a547"
+    ],
+    [
+      "bw-p",
+      "BWXT Investor Day 2026",
+      "2026-09-29 / pp. 65, 69, 74",
+      "https://investors.bwxt.com/static-files/39ed32ce-c571-4c81-ac55-6760f2e1dac5"
+    ],
+    [
+      "bw-pol",
+      "BWXT 폴란드 투자 보도 해명",
+      "2026-10-22 발표",
+      "https://www.bwxt.com/bwxt-clarifies-news-reports-regarding-potential-poland-investment/"
+    ],
+    [
+      "bw-ban",
+      "BWXT 캐나다 BANR 프로젝트 선정",
+      "2026-10-05 발표",
+      "https://www.bwxt.com/bwxts-banr-microreactor-chosen-for-canadian-transportable-nuclear-power-plant-project/"
+    ],
+    [
+      "bw-navy",
+      "BWXT 해군 핵연료 계약",
+      "2026-10-01 발표",
+      "https://www.bwxt.com/bwxt-awarded-189-million-naval-nuclear-fuel-contract/"
+    ],
+    [
+      "bw-jan",
+      "BWXT 미 육군 Janus 선정",
+      "2026-08-26 발표",
+      "https://www.bwxt.com/u-s-army-chooses-bwxt-advanced-nuclear-reactor-banr-for-janus-program/"
+    ],
+    [
+      "FN-m",
+      "FN 시세·시가총액",
+      "2026-10-23 미국 종가 기준",
+      "https://stockanalysis.com/stocks/fn/statistics/"
+    ],
+    [
+      "FN-f",
+      "FN 과거 재무 집계",
+      "최근 완료된 회계연도 및 2026년 6월 TTM",
+      "https://stockanalysis.com/stocks/fn/financials/"
+    ],
+    [
+      "ACMR-m",
+      "ACMR 시세·시가총액",
+      "2026-10-23 미국 종가 기준",
+      "https://stockanalysis.com/stocks/acmr/statistics/"
+    ],
+    [
+      "ACMR-f",
+      "ACMR 과거 재무 집계",
+      "최근 완료된 회계연도 및 2026년 6월 TTM",
+      "https://stockanalysis.com/stocks/acmr/financials/"
+    ],
+    [
+      "BWXT-m",
+      "BWXT 시세·시가총액",
+      "2026-10-23 미국 종가 기준",
+      "https://stockanalysis.com/stocks/bwxt/statistics/"
+    ],
+    [
+      "BWXT-f",
+      "BWXT 과거 재무 집계",
+      "최근 완료된 회계연도 및 2026년 6월 TTM",
+      "https://stockanalysis.com/stocks/bwxt/financials/"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "reviewedAt": "2026-10-24",
+  "model": {"years": 10, "annualPriceReturn": 0.10, "terminalPE": 20, "annualDilution": [0, 0.03]},
+  "stocks": [
+    {
+      "ticker": "FN", "name": "Fabrinet", "sector": "광통신·광학 제조", "cik": "0001408710",
+      "conclusion": "우선 조사 후보. 성장과 가격의 격차보다 현금 회수·고객 집중 개선 여부를 먼저 확인.",
+      "risks": "설비투자 부담, 고객 집중, 고객사의 자체 생산·생산 배분 변경",
+      "margin": 0.09, "marginRange": [0.07, 0.11],
+      "baseline": {"priceDate": "2026-10-23", "price": 314.94, "marketCap": 11290000000, "ttmRevenue": 4641000000, "revenueYoY": 0.3573, "period": "2026-06-26"},
+      "primary": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000028/fn-20260626.htm",
+      "ir": "https://investor.fabrinet.com/press-releases",
+      "modelSource": "https://stockanalysis.com/stocks/fn/financials/",
+      "event": {"dateNY": "2026-11-02", "previousSession": "2026-10-30", "label": "FY2027 1분기 실적 · 미국 장 마감 후 예정", "source": "https://investor.fabrinet.com/news-releases/news-release-details/fabrinet-announce-first-quarter-fiscal-year-2027-financial"}
+    },
+    {
+      "ticker": "ACMR", "name": "ACM Research", "sector": "반도체 세정·첨단 패키징 장비", "cik": "0001680062",
+      "conclusion": "조건부 조사 후보. 성장률만으로 중국 규제·이익의 질·현금흐름 위험을 상쇄한다고 판단할 수 없음.",
+      "risks": "중국 수출 규제, 연결 이익과 미국 주주 귀속 현금의 차이, 투자이익·운전자본",
+      "margin": 0.10, "marginRange": [0.08, 0.12],
+      "baseline": {"priceDate": "2026-10-23", "price": 50.55, "marketCap": 3520000000, "ttmRevenue": 1038000000, "revenueYoY": 0.2731, "period": "2026-06-30"},
+      "primary": "https://www.sec.gov/Archives/edgar/data/1680062/000162828026054832/acmr-20260630.htm",
+      "ir": "https://ir.acmr.com/news-releases",
+      "modelSource": "https://stockanalysis.com/stocks/acmr/financials/"
+    },
+    {
+      "ticker": "BWXT", "name": "BWX Technologies", "sector": "원자력 부품·연료·국방", "cik": "0001486957",
+      "conclusion": "사업의 유망함과 저평가를 구분. 회사 중기 매출 전망 대비 가격이 요구하는 성장을 재검토할 후보.",
+      "risks": "국방 예산·발주, 인수 효과를 뺀 유기적 성장, 고정가격 계약·프로젝트 지연",
+      "margin": 0.11, "marginRange": [0.09, 0.13],
+      "baseline": {"priceDate": "2026-10-23", "price": 127.19, "marketCap": 11650000000, "ttmRevenue": 3514000000, "revenueYoY": 0.2267, "period": "2026-06-30"},
+      "primary": "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000044/bwxt-20260630.htm",
+      "ir": "https://investors.bwxt.com/news-releases",
+      "modelSource": "https://stockanalysis.com/stocks/bwxt/financials/"
+    }
+  ]
+}

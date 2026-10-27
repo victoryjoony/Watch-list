@@ -1,0 +1,43 @@
+name: Daily watch-list update
+on:
+  schedule:
+    - cron: '10 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'config/**'
+      - 'tests/**'
+      - 'package.json'
+      - '.github/workflows/daily-update.yml'
+permissions:
+  contents: write
+concurrency:
+  group: daily-watch-list
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate data handling
+        run: npm test
+      - name: Collect public data and render
+        run: npm run update
+      - name: Commit daily snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md docs/index.html data/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Daily watch-list snapshot $(date -u +%F)"
+            git push
+          fi
+      - name: Surface collection failures
+        run: |
+          node --input-type=module -e "import fs from 'node:fs'; const d=JSON.parse(fs.readFileSync('data/latest.json')); for(const e of d.health.errors) console.log('::warning::'+e); if(d.health.status==='failed') process.exit(1);"

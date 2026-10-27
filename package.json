@@ -1,0 +1,7 @@
+{
+  "name": "watch-list",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --test", "update": "node scripts/update.mjs && node scripts/render.mjs"},
+  "engines": {"node": ">=22"}
+}

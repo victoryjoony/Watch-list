@@ -50,7 +50,7 @@ lines.push('', '## 운영·한계', '',
   '[사실] GitHub 공개 저장소 예약 실행은 장기간 저장소 활동이 없으면 중지될 수 있습니다. 실패·중지 여부는 Actions에서 확인할 수 있습니다. 이 저장소는 별도의 앱 예약·푸시 알림을 만들지 않습니다.', '',
   '[의견] 자동 결과는 조사할 사항을 정리하는 도구입니다. 저평가 확정이나 신규 진입·매수·매도 지시로 해석하지 않습니다.', '',
   '[사실] 설정은 config/watchlist.json, 원시 수집값·최근 일별 기록은 data/latest.json에 저장합니다. 과거 보고서는 작성 당시 상태로 보존됩니다.');
-const md=lines.join('\n')+'\n';await fs.writeFile('README.md',md);
+const md=lines.join('\n')+'\n';await fs.writeFile('README.md',md.replaceAll('$','\\$'));
 // Render the same text as a self-contained, script-free mobile HTML page.
 function inline(s){return esc(s).replace(/\[([^\]]+)\]\(([^)]+)\)/g,(_,label,url)=>`<a href="${url.startsWith('http')?url:'../'+url}">${label}</a>`).replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');}
 let html='',table=false;

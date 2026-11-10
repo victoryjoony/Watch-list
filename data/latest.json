@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-09T06:11:22.151Z",
+  "checkedAt": "2026-11-10T07:08:35.230Z",
   "stocks": {
     "FN": {
       "errors": [
         "filings: HTTP 403"
       ],
-      "checkedAt": "2026-11-09T06:11:22.151Z",
+      "checkedAt": "2026-11-10T07:08:35.230Z",
       "quote": {
-        "close": 327.13,
-        "date": "2026-11-06",
+        "close": 365.94,
+        "date": "2026-11-09",
         "currency": "USD",
-        "previousClose": 292.9700012207031,
-        "changePct": 11.659898119185108,
+        "previousClose": 327.1300048828125,
+        "changePct": 11.863784116194598,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/FN/history/",
-        "fetchedAt": "2026-11-09T06:11:22.151Z",
+        "fetchedAt": "2026-11-10T07:08:35.230Z",
         "status": "ok"
       },
       "financials": {
@@ -36,25 +36,25 @@
         "currency": "USD",
         "status": "ok",
         "ttmRevenue": 5137428000,
-        "fetchedAt": "2026-11-09T06:11:22.151Z",
+        "fetchedAt": "2026-11-10T07:08:35.230Z",
         "sourceUrl": "https://finance.yahoo.com/quote/FN/financials/"
       },
       "afterhours": {
         "status": "ok",
         "first": {
-          "time": "2026-11-06T21:00:00.000Z",
-          "date": "2026-11-06",
-          "price": 327.13
+          "time": "2026-11-09T21:00:00.000Z",
+          "date": "2026-11-09",
+          "price": 365.94
         },
         "last": {
-          "time": "2026-11-07T00:27:20.000Z",
-          "date": "2026-11-06",
-          "price": 327.74
+          "time": "2026-11-10T00:52:32.000Z",
+          "date": "2026-11-09",
+          "price": 365.94
         },
         "completed": true,
         "note": "장외 1분봉 종가 표본. 첫 체결가·실적 공개 순간 가격을 뜻하지 않으며, 거래소 전체 체결을 포괄하지 않음.",
-        "regularEnd": 1794258000,
-        "fetchedAt": "2026-11-09T06:11:22.151Z",
+        "regularEnd": 1794344400,
+        "fetchedAt": "2026-11-10T07:08:35.230Z",
         "sourceUrl": "https://finance.yahoo.com/quote/FN/"
       },
       "filings": {
@@ -98,30 +98,30 @@
       },
       "valuation": {
         "status": "current-proxy",
-        "marketCap": 11722148410.39,
+        "marketCap": 13112838899.82,
         "ttmRevenue": 5137428000,
-        "ps": 2.2817153662085383,
+        "ps": 2.552413172470738,
         "inputPeriod": "2026-09-30",
-        "priceDate": "2026-11-06",
+        "priceDate": "2026-11-09",
         "method": "최근 분기 말 보통주 수 × 종가 / 최근 4개 분기 매출",
         "required": [
           {
             "dilution": 0,
-            "growth": 0.12639724962913523
+            "growth": 0.13909653915975784
           },
           {
             "dilution": 0.03,
-            "growth": 0.16018916711800935
+            "growth": 0.17326943533455075
           }
         ],
         "sensitivity": [
           {
             "margin": 0.07,
-            "growth": 0.18971586505562632
+            "growth": 0.20312902478634398
           },
           {
             "margin": 0.11,
-            "growth": 0.13713961239848693
+            "growth": 0.1499600140634798
           }
         ]
       },
@@ -135,55 +135,55 @@
       "errors": [
         "filings: HTTP 403"
       ],
-      "checkedAt": "2026-11-09T06:11:22.151Z",
+      "checkedAt": "2026-11-10T07:08:35.230Z",
       "quote": {
-        "close": 44.61,
-        "date": "2026-11-06",
+        "close": 49.75,
+        "date": "2026-11-09",
         "currency": "USD",
-        "previousClose": 39.310001373291016,
-        "changePct": 13.482571996707193,
+        "previousClose": 44.61000061035156,
+        "changePct": 11.522078725225837,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/ACMR/history/",
-        "fetchedAt": "2026-11-09T06:11:22.151Z",
+        "fetchedAt": "2026-11-10T07:08:35.230Z",
         "status": "ok"
       },
       "financials": {
-        "period": "2026-06-30",
-        "revenue": 292919000,
-        "quarterEPS": 1.23,
-        "revenueYoY": 0.360060732128596,
-        "operatingMargin": 0.16981827740774755,
-        "marginChangePP": 2.265894378963562,
-        "operatingCashFlow": -6358000,
-        "capex": 65351000,
-        "fcfProxy": -71709000,
-        "ttmEPS": 2.12,
+        "period": "2026-09-30",
+        "revenue": 367687000,
+        "quarterEPS": 0.02,
+        "revenueYoY": 0.36605364838757626,
+        "operatingMargin": 0.15101703350947954,
+        "marginChangePP": 4.35605020783605,
+        "operatingCashFlow": -70443000,
+        "capex": 26110000,
+        "fcfProxy": -96553000,
+        "ttmEPS": 1.6,
         "epsMethod": "공급자 TTM 희석 EPS",
-        "shares": 69643173,
+        "shares": 69868413,
         "source": "Yahoo Finance 공개 재무 시계열",
         "currency": "USD",
         "status": "ok",
-        "ttmRevenue": 1037772000,
-        "fetchedAt": "2026-11-09T06:11:22.151Z",
+        "ttmRevenue": 1136299000,
+        "fetchedAt": "2026-11-10T07:08:35.230Z",
         "sourceUrl": "https://finance.yahoo.com/quote/ACMR/financials/"
       },
       "afterhours": {
         "status": "ok",
         "first": {
-          "time": "2026-11-06T21:00:00.000Z",
-          "date": "2026-11-06",
-          "price": 44.61
+          "time": "2026-11-09T21:00:00.000Z",
+          "date": "2026-11-09",
+          "price": 49.75
         },
         "last": {
-          "time": "2026-11-06T22:30:56.000Z",
-          "date": "2026-11-06",
-          "price": 44.91
+          "time": "2026-11-09T21:33:57.000Z",
+          "date": "2026-11-09",
+          "price": 49.85
         },
         "completed": true,
         "note": "장외 1분봉 종가 표본. 첫 체결가·실적 공개 순간 가격을 뜻하지 않으며, 거래소 전체 체결을 포괄하지 않음.",
-        "regularEnd": 1794258000,
-        "fetchedAt": "2026-11-09T06:11:22.151Z",
+        "regularEnd": 1794344400,
+        "fetchedAt": "2026-11-10T07:08:35.230Z",
         "sourceUrl": "https://finance.yahoo.com/quote/ACMR/"
       },
       "filings": {
@@ -192,35 +192,36 @@
       "event": null,
       "valuation": {
         "status": "current-proxy",
-        "marketCap": 3106781947.5299997,
-        "ttmRevenue": 1037772000,
-        "ps": 2.9937037687758004,
-        "inputPeriod": "2026-06-30",
-        "priceDate": "2026-11-06",
+        "marketCap": 3475953546.75,
+        "ttmRevenue": 1136299000,
+        "ps": 3.0590131178061406,
+        "inputPeriod": "2026-09-30",
+        "priceDate": "2026-11-09",
         "method": "최근 분기 말 보통주 수 × 종가 / 최근 4개 분기 매출",
         "required": [
           {
             "dilution": 0,
-            "growth": 0.14527707621908514
+            "growth": 0.14775136920195742
           },
           {
             "dilution": 0.03,
-            "growth": 0.17963538850565763
+            "growth": 0.18218391027801628
           }
         ],
         "sensitivity": [
           {
             "margin": 0.08,
-            "growth": 0.20625407640573923
+            "growth": 0.2088601060371582
           },
           {
             "margin": 0.12,
-            "growth": 0.15832296850833516
+            "growth": 0.16082544625139938
           }
         ]
       },
       "flags": [
         "[사실] 일부 자료 조회 실패: 이전 값의 기준일과 상태 확인 필요.",
+        "[사실] 최초 조사 이후 새 분기 자료 반영. [의견] 기존 결론·이익률 가정을 다시 검토할 시점.",
         "[사실] 분기 영업현금흐름−설비투자가 음수."
       ]
     },
@@ -228,17 +229,17 @@
       "errors": [
         "filings: HTTP 403"
       ],
-      "checkedAt": "2026-11-09T06:11:22.151Z",
+      "checkedAt": "2026-11-10T07:08:35.230Z",
       "quote": {
-        "close": 119.52,
-        "date": "2026-11-06",
+        "close": 127.99,
+        "date": "2026-11-09",
         "currency": "USD",
-        "previousClose": 114.95999908447266,
-        "changePct": 3.9665949851330984,
+        "previousClose": 119.5199966430664,
+        "changePct": 7.086681273927642,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/BWXT/history/",
-        "fetchedAt": "2026-11-09T06:11:22.151Z",
+        "fetchedAt": "2026-11-10T07:08:35.230Z",
         "status": "ok"
       },
       "financials": {
@@ -258,25 +259,25 @@
         "currency": "USD",
         "status": "ok",
         "ttmRevenue": 3600656000,
-        "fetchedAt": "2026-11-09T06:11:22.151Z",
+        "fetchedAt": "2026-11-10T07:08:35.230Z",
         "sourceUrl": "https://finance.yahoo.com/quote/BWXT/financials/"
       },
       "afterhours": {
         "status": "ok",
         "first": {
-          "time": "2026-11-06T21:00:00.000Z",
-          "date": "2026-11-06",
-          "price": 119.52
+          "time": "2026-11-09T21:00:00.000Z",
+          "date": "2026-11-09",
+          "price": 127.99
         },
         "last": {
-          "time": "2026-11-07T00:39:41.000Z",
-          "date": "2026-11-06",
-          "price": 119
+          "time": "2026-11-09T23:41:09.000Z",
+          "date": "2026-11-09",
+          "price": 128.75
         },
         "completed": true,
         "note": "장외 1분봉 종가 표본. 첫 체결가·실적 공개 순간 가격을 뜻하지 않으며, 거래소 전체 체결을 포괄하지 않음.",
-        "regularEnd": 1794258000,
-        "fetchedAt": "2026-11-09T06:11:22.151Z",
+        "regularEnd": 1794344400,
+        "fetchedAt": "2026-11-10T07:08:35.230Z",
         "sourceUrl": "https://finance.yahoo.com/quote/BWXT/"
       },
       "filings": {
@@ -285,30 +286,30 @@
       "event": null,
       "valuation": {
         "status": "current-proxy",
-        "marketCap": 10950988566.24,
+        "marketCap": 11727050088.63,
         "ttmRevenue": 3600656000,
-        "ps": 3.0413870600912722,
+        "ps": 3.2569204302299357,
         "inputPeriod": "2026-09-30",
-        "priceDate": "2026-11-06",
+        "priceDate": "2026-11-09",
         "method": "최근 분기 말 보통주 수 × 종가 / 최근 4개 분기 매출",
         "required": [
           {
             "dilution": 0,
-            "growth": 0.1362073293539372
+            "growth": 0.144013453943731
           },
           {
             "dilution": 0.03,
-            "growth": 0.17029354923455542
+            "growth": 0.178333857562043
           }
         ],
         "sensitivity": [
           {
             "margin": 0.09,
-            "growth": 0.19401512652099795
+            "growth": 0.2022184100229809
           },
           {
             "margin": 0.13,
-            "growth": 0.1509057092416417
+            "growth": 0.15881281662014612
           }
         ]
       },
@@ -327,6 +328,12 @@
     ]
   },
   "events": [
+    {
+      "id": "ACMR:2026-09-30",
+      "ticker": "ACMR",
+      "period": "2026-09-30",
+      "detectedAt": "2026-11-10T07:08:35.230Z"
+    },
     {
       "id": "BWXT:2026-09-30",
       "ticker": "BWXT",
@@ -1106,6 +1113,61 @@
             {
               "dilution": 0.03,
               "growth": 0.17029354923455542
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "checkedAt": "2026-11-10T07:08:35.230Z",
+      "status": "partial",
+      "stocks": {
+        "FN": {
+          "date": "2026-11-09",
+          "close": 365.94,
+          "priceStatus": "ok",
+          "financialPeriod": "2026-09-30",
+          "required": [
+            {
+              "dilution": 0,
+              "growth": 0.13909653915975784
+            },
+            {
+              "dilution": 0.03,
+              "growth": 0.17326943533455075
+            }
+          ]
+        },
+        "ACMR": {
+          "date": "2026-11-09",
+          "close": 49.75,
+          "priceStatus": "ok",
+          "financialPeriod": "2026-09-30",
+          "required": [
+            {
+              "dilution": 0,
+              "growth": 0.14775136920195742
+            },
+            {
+              "dilution": 0.03,
+              "growth": 0.18218391027801628
+            }
+          ]
+        },
+        "BWXT": {
+          "date": "2026-11-09",
+          "close": 127.99,
+          "priceStatus": "ok",
+          "financialPeriod": "2026-09-30",
+          "required": [
+            {
+              "dilution": 0,
+              "growth": 0.144013453943731
+            },
+            {
+              "dilution": 0.03,
+              "growth": 0.178333857562043
             }
           ]
         }
